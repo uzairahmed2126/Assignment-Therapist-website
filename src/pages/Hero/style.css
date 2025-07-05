@@ -1,5 +1,31 @@
 /* Add smooth transitions and subtle animations */
 @import "tailwindcss";
+
+.hero-content {
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+/* Ensure the button has a nice hover effect */
+.btn-consult {
+  transition: all 0.3s ease;
+  height: 80px;
+  /* width: 10%; */
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.btn-consult:hover {
+  box-shadow: 0 10px 20px -10px rgba(37, 99, 235, 0.6);
+}
+.custom-img {
+  filter: blur(2px);
+}
+.custom-div-css {
+  height: 60%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -9,20 +35,4 @@
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-.hero-content {
-  animation: fadeInUp 1s ease-out forwards;
-}
-
-/* Ensure the button has a nice hover effect */
-.btn-consult {
-  transition: all 0.3s ease;
-}
-
-.btn-consult:hover {
-  box-shadow: 0 10px 20px -10px rgba(37, 99, 235, 0.6);
-}
-.custom-img {
-  filter: blur(3px);
 }

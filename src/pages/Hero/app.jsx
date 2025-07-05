@@ -16,15 +16,15 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4 sm:px-6 lg:px-8">
-        <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6 leading-tight">
-            Transform Your Business with Expert Guidance
+        <div className="max-w-4xl mx-auto custom-div-css">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-100 mb-6 leading-tight">
+            Psychological Care for Change, Insight, and Well-Being
           </h1>
           <h2 className="text-xl sm:text-2xl text-gray-200 mb-10 max-w-2xl mx-auto">
-            We help ambitious businesses like yours grow faster through
-            strategic consulting and tailored solutions.
+            Offering individual psychotherapy for adults via telehealth in
+            Michigan and most U.S. states through PSYPACT participation
           </h2>
-          <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg text-lg transition duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 shadow-lg">
+          <button className="bg-blue-300 hover:bg-blue-400 text-white font-semibold py-3 px-8 rounded-lg text-lg transition duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 shadow-lg btn-consult">
             Book a Free Consult
           </button>
         </div>
