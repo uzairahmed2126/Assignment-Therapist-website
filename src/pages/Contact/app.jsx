@@ -44,7 +44,6 @@ function Contact() {
     e.preventDefault();
     if (validate()) {
       alert("Form submitted successfully!");
-      // You can send the data to server here
     }
   };
 
